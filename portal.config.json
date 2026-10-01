@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "territory": {
+    "id": "lab",
+    "name": "Lab",
+    "url": "https://lab.baam.pro/",
+    "localUrl": "http://127.0.0.1:8089/",
+    "accent": "#f00098",
+    "tagline": "Expériences en train de naître",
+    "description": "Temps, matière, nombres et organismes artificiels. Des systèmes que l’on comprend en les mettant en mouvement."
+  },
+  "featured": ["r-time", "pixel-bloom", "suite-premiere"],
+  "sources": [
+    { "id": "r-time", "file": "../R-Time Simulator/baam.json", "cache": "data/manifests/r-time.json" },
+    { "id": "pixel-bloom", "file": "../pixel-bloom/baam.json", "cache": "data/manifests/pixel-bloom.json" },
+    { "id": "suite-premiere", "file": "../suite-premiere-visualizer/baam.json", "cache": "data/manifests/suite-premiere.json" }
+  ]
+}

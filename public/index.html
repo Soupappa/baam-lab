@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BAAM.Lab — expériences interactives, simulations et systèmes en train de naître." />
+    <meta name="theme-color" content="#f7f7f2" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <script>
+      try { if (localStorage.getItem('baam.lab.theme') === 'dark') document.documentElement.classList.add('dark'); } catch {}
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+    <title>BAAM.Lab</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="https://baam.pro/" aria-label="Retour à BAAM.pro">BAAM<span>.</span>LAB</a>
+      <div class="top-actions">
+        <span class="manifest-state" id="manifest-state">03 SYSTÈMES</span>
+        <button class="theme-toggle" type="button" aria-label="Basculer le contraste" aria-pressed="false"><span></span></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <p class="hero-kicker">EXPÉRIENCES EN TRAIN DE NAÎTRE</p>
+        <h1 id="hero-title"><span>LA</span><span>B</span></h1>
+        <p class="hero-copy">Temps, matière, nombres et organismes artificiels.<br />Des systèmes que l’on comprend en les mettant en mouvement.</p>
+        <a class="hero-enter" href="#experiences">ENTRER DANS LE CHAMP <b>↓</b></a>
+      </section>
+
+      <div class="matter-strip" aria-hidden="true">
+        <span>TEMPS</span><i></i><span>MATIÈRE</span><i></i><span>NOMBRES</span><i></i><span>ÉMERGENCE</span><i></i><span>RELATIVITÉ</span>
+      </div>
+
+      <section class="experiences" id="experiences" aria-label="Expériences du Lab">
+        <div class="section-head">
+          <p>REGISTRE / LAB</p>
+          <p id="registry-hash">COMPILATION…</p>
+        </div>
+        <div id="project-list" class="project-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://baam.pro/">BAAM.PRO ↗</a>
+      <span>UN TERRITOIRE, PLUSIEURS SYSTÈMES</span>
+      <span>LAB.BAAM.PRO</span>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

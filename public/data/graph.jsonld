@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "baam": "https://baam.pro/vocab/"
+  },
+  "@graph": [
+    {
+      "@id": "https://lab.baam.pro/",
+      "@type": "CollectionPage",
+      "name": "BAAM.Lab",
+      "description": "Temps, matière, nombres et organismes artificiels. Des systèmes que l’on comprend en les mettant en mouvement.",
+      "hasPart": [
+        {
+          "@id": "https://r-time-simulator.netlify.app/"
+        },
+        {
+          "@id": "https://lab.baam.pro/#pixel-bloom"
+        },
+        {
+          "@id": "https://lab.baam.pro/#suite-premiere"
+        }
+      ]
+    },
+    {
+      "@id": "https://r-time-simulator.netlify.app/",
+      "@type": "CreativeWork",
+      "name": "R-Time",
+      "description": "Un laboratoire de physique relativiste interactif, du temps retardé aux géodésiques de Schwarzschild.",
+      "dateModified": "2026-07-11",
+      "isPartOf": {
+        "@id": "https://lab.baam.pro/"
+      }
+    },
+    {
+      "@id": "https://lab.baam.pro/#pixel-bloom",
+      "@type": "CreativeWork",
+      "name": "Pixel Bloom",
+      "description": "Une simulation de vie artificielle où des règles simples d’attraction et de répulsion font émerger des organismes de particules.",
+      "dateModified": "2026-08-29",
+      "isPartOf": {
+        "@id": "https://lab.baam.pro/"
+      }
+    },
+    {
+      "@id": "https://lab.baam.pro/#suite-premiere",
+      "@type": "CreativeWork",
+      "name": "Suite Première",
+      "description": "Un laboratoire visuel pour explorer le crible récursif, les interférences et les figures cachées dans les nombres premiers.",
+      "dateModified": "2026-08-29",
+      "isPartOf": {
+        "@id": "https://lab.baam.pro/"
+      }
+    }
+  ]
+}

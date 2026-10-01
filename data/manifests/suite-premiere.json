@@ -1,0 +1,26 @@
+{
+  "$schema": "https://baam.pro/schema/manifest-v1.json",
+  "schemaVersion": 1,
+  "id": "suite-premiere",
+  "title": "Suite Première",
+  "summary": "Un laboratoire visuel pour explorer le crible récursif, les interférences et les figures cachées dans les nombres premiers.",
+  "type": "mathematical-visualization",
+  "status": "preview",
+  "territories": [
+    "lab"
+  ],
+  "url": null,
+  "localUrl": "http://127.0.0.1:8082/",
+  "repository": "https://github.com/Soupappa/suite-premiere-visualizer",
+  "updatedAt": "2026-08-29",
+  "tags": [
+    "nombres premiers",
+    "crible",
+    "visualisation",
+    "mathématiques"
+  ],
+  "preview": {
+    "type": "none"
+  },
+  "relations": []
+}

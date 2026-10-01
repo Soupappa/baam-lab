@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "territory": "lab",
+    "sourceHash": "15c8fb461665a8b06f7d8f6b6c48fe5c75c777720bfcfd904d0da272c9c07cea",
+    "compiledAt": "2026-08-29",
+    "count": 3,
+    "relationVocabulary": [
+      "part-of",
+      "derived-from",
+      "inspired-by",
+      "documents",
+      "demonstrates",
+      "uses",
+      "links-to",
+      "extends",
+      "related-to"
+    ]
+  },
+  "territory": {
+    "id": "lab",
+    "name": "Lab",
+    "url": "https://lab.baam.pro/",
+    "localUrl": "http://127.0.0.1:8089/",
+    "accent": "#f00098",
+    "tagline": "Expériences en train de naître",
+    "description": "Temps, matière, nombres et organismes artificiels. Des systèmes que l’on comprend en les mettant en mouvement."
+  },
+  "assets": [
+    {
+      "id": "r-time",
+      "title": "R-Time",
+      "summary": "Un laboratoire de physique relativiste interactif, du temps retardé aux géodésiques de Schwarzschild.",
+      "type": "simulation-interactive",
+      "status": "public",
+      "territories": [
+        "lab"
+      ],
+      "url": "https://r-time-simulator.netlify.app/",
+      "localUrl": "http://127.0.0.1:5173/",
+      "repository": "https://github.com/Soupappa/r-time-simulator",
+      "updatedAt": "2026-07-11",
+      "tags": [
+        "relativité",
+        "temps",
+        "simulation",
+        "three.js",
+        "glsl"
+      ],
+      "preview": {
+        "type": "none"
+      },
+      "sourceOrigin": "file",
+      "relations": []
+    },
+    {
+      "id": "pixel-bloom",
+      "title": "Pixel Bloom",
+      "summary": "Une simulation de vie artificielle où des règles simples d’attraction et de répulsion font émerger des organismes de particules.",
+      "type": "artificial-life-simulation",
+      "status": "preview",
+      "territories": [
+        "lab"
+      ],
+      "url": null,
+      "localUrl": "http://127.0.0.1:8085/",
+      "repository": "https://github.com/Soupappa/pixel-bloom",
+      "updatedAt": "2026-08-29",
+      "tags": [
+        "vie artificielle",
+        "particules",
+        "émergence",
+        "canvas"
+      ],
+      "preview": {
+        "type": "none"
+      },
+      "sourceOrigin": "file",
+      "relations": []
+    },
+    {
+      "id": "suite-premiere",
+      "title": "Suite Première",
+      "summary": "Un laboratoire visuel pour explorer le crible récursif, les interférences et les figures cachées dans les nombres premiers.",
+      "type": "mathematical-visualization",
+      "status": "preview",
+      "territories": [
+        "lab"
+      ],
+      "url": null,
+      "localUrl": "http://127.0.0.1:8082/",
+      "repository": "https://github.com/Soupappa/suite-premiere-visualizer",
+      "updatedAt": "2026-08-29",
+      "tags": [
+        "nombres premiers",
+        "crible",
+        "visualisation",
+        "mathématiques"
+      ],
+      "preview": {
+        "type": "none"
+      },
+      "sourceOrigin": "file",
+      "relations": []
+    }
+  ]
+}
