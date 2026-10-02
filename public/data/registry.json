@@ -2,8 +2,8 @@
   "meta": {
     "schemaVersion": 1,
     "territory": "lab",
-    "sourceHash": "15c8fb461665a8b06f7d8f6b6c48fe5c75c777720bfcfd904d0da272c9c07cea",
-    "compiledAt": "2026-08-29",
+    "sourceHash": "3525a9f18d49a4ec1679cc2452b2e6e758b84ead72c4db7389edf81b862c785b",
+    "compiledAt": "2026-10-02",
     "count": 3,
     "relationVocabulary": [
       "part-of",
@@ -36,10 +36,10 @@
       "territories": [
         "lab"
       ],
-      "url": "https://r-time-simulator.netlify.app/",
+      "url": "https://r-time.lab.baam.pro/",
       "localUrl": "http://127.0.0.1:5173/",
       "repository": "https://github.com/Soupappa/r-time-simulator",
-      "updatedAt": "2026-07-11",
+      "updatedAt": "2026-10-02",
       "tags": [
         "relativité",
         "temps",
@@ -48,7 +48,8 @@
         "glsl"
       ],
       "preview": {
-        "type": "none"
+        "type": "iframe",
+        "url": "https://r-time.lab.baam.pro/"
       },
       "sourceOrigin": "file",
       "relations": []
@@ -62,10 +63,10 @@
       "territories": [
         "lab"
       ],
-      "url": null,
+      "url": "https://pixel-bloom.lab.baam.pro/",
       "localUrl": "http://127.0.0.1:8085/",
       "repository": "https://github.com/Soupappa/pixel-bloom",
-      "updatedAt": "2026-08-29",
+      "updatedAt": "2026-10-02",
       "tags": [
         "vie artificielle",
         "particules",
@@ -73,7 +74,8 @@
         "canvas"
       ],
       "preview": {
-        "type": "none"
+        "type": "iframe",
+        "url": "https://pixel-bloom.lab.baam.pro/"
       },
       "sourceOrigin": "file",
       "relations": []
@@ -87,10 +89,10 @@
       "territories": [
         "lab"
       ],
-      "url": null,
+      "url": "https://suite-premiere.lab.baam.pro/",
       "localUrl": "http://127.0.0.1:8082/",
       "repository": "https://github.com/Soupappa/suite-premiere-visualizer",
-      "updatedAt": "2026-08-29",
+      "updatedAt": "2026-10-02",
       "tags": [
         "nombres premiers",
         "crible",
@@ -98,7 +100,8 @@
         "mathématiques"
       ],
       "preview": {
-        "type": "none"
+        "type": "iframe",
+        "url": "https://suite-premiere.lab.baam.pro/"
       },
       "sourceOrigin": "file",
       "relations": []

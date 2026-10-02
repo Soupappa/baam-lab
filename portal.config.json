@@ -11,8 +11,23 @@
   },
   "featured": ["r-time", "pixel-bloom", "suite-premiere"],
   "sources": [
-    { "id": "r-time", "file": "../R-Time Simulator/baam.json", "cache": "data/manifests/r-time.json" },
-    { "id": "pixel-bloom", "file": "../pixel-bloom/baam.json", "cache": "data/manifests/pixel-bloom.json" },
-    { "id": "suite-premiere", "file": "../suite-premiere-visualizer/baam.json", "cache": "data/manifests/suite-premiere.json" }
+    {
+      "id": "r-time",
+      "file": "../R-Time Simulator/baam.json",
+      "url": "https://r-time.lab.baam.pro/.well-known/baam.json",
+      "cache": "data/manifests/r-time.json"
+    },
+    {
+      "id": "pixel-bloom",
+      "file": "../pixel-bloom/baam.json",
+      "url": "https://pixel-bloom.lab.baam.pro/.well-known/baam.json",
+      "cache": "data/manifests/pixel-bloom.json"
+    },
+    {
+      "id": "suite-premiere",
+      "file": "../suite-premiere-visualizer/baam.json",
+      "url": "https://suite-premiere.lab.baam.pro/.well-known/baam.json",
+      "cache": "data/manifests/suite-premiere.json"
+    }
   ]
 }

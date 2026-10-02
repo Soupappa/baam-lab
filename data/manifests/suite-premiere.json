@@ -9,10 +9,10 @@
   "territories": [
     "lab"
   ],
-  "url": null,
+  "url": "https://suite-premiere.lab.baam.pro/",
   "localUrl": "http://127.0.0.1:8082/",
   "repository": "https://github.com/Soupappa/suite-premiere-visualizer",
-  "updatedAt": "2026-08-29",
+  "updatedAt": "2026-10-02",
   "tags": [
     "nombres premiers",
     "crible",
@@ -20,7 +20,8 @@
     "mathématiques"
   ],
   "preview": {
-    "type": "none"
+    "type": "iframe",
+    "url": "https://suite-premiere.lab.baam.pro/"
   },
   "relations": []
 }

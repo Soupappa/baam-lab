@@ -9,10 +9,10 @@
   "territories": [
     "lab"
   ],
-  "url": "https://r-time-simulator.netlify.app/",
+  "url": "https://r-time.lab.baam.pro/",
   "localUrl": "http://127.0.0.1:5173/",
   "repository": "https://github.com/Soupappa/r-time-simulator",
-  "updatedAt": "2026-07-11",
+  "updatedAt": "2026-10-02",
   "tags": [
     "relativité",
     "temps",
@@ -21,7 +21,8 @@
     "glsl"
   ],
   "preview": {
-    "type": "none"
+    "type": "iframe",
+    "url": "https://r-time.lab.baam.pro/"
   },
   "relations": []
 }

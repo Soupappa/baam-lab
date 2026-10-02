@@ -9,10 +9,10 @@
   "territories": [
     "lab"
   ],
-  "url": null,
+  "url": "https://pixel-bloom.lab.baam.pro/",
   "localUrl": "http://127.0.0.1:8085/",
   "repository": "https://github.com/Soupappa/pixel-bloom",
-  "updatedAt": "2026-08-29",
+  "updatedAt": "2026-10-02",
   "tags": [
     "vie artificielle",
     "particules",
@@ -20,7 +20,8 @@
     "canvas"
   ],
   "preview": {
-    "type": "none"
+    "type": "iframe",
+    "url": "https://pixel-bloom.lab.baam.pro/"
   },
   "relations": []
 }
