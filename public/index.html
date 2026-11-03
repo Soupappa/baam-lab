@@ -4,17 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="BAAM.Lab — expériences interactives, simulations et systèmes en train de naître." />
+    <meta property="og:title" content="BAAM.Lab" />
+    <meta property="og:description" content="BAAM.Lab — expériences interactives, simulations et systèmes en train de naître." />
+    <meta property="og:image" content="https://baam.pro/icones/og-lab.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://baam.pro/icones/og-lab.png" />
+    <link rel="icon" href="https://baam.pro/icones/b-lab.svg" type="image/svg+xml" />
+    <link rel="icon" href="https://baam.pro/icones/b-lab-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="https://baam.pro/icones/b-lab-180.png" />
     <meta name="theme-color" content="#f7f7f2" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <script>
       try { if (localStorage.getItem('baam.lab.theme') === 'dark') document.documentElement.classList.add('dark'); } catch {}
     </script>
+    <link rel="stylesheet" href="https://baam.pro/baam-tokens.css" />
     <link rel="stylesheet" href="/styles.css" />
+    <script src="https://baam.pro/baam-signe.js" defer></script>
     <title>BAAM.Lab</title>
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="https://baam.pro/" aria-label="Retour à BAAM.pro">BAAM<span>.</span>LAB</a>
+      <a class="brand" href="https://baam.pro/" aria-label="Retour à BAAM.pro"><baam-signe sans-polices univers="lab"></baam-signe></a>
       <div class="top-actions">
         <span class="manifest-state" id="manifest-state">03 SYSTÈMES</span>
         <button class="theme-toggle" type="button" aria-label="Basculer le contraste" aria-pressed="false"><span></span></button>
